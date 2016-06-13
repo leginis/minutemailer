@@ -1,9 +1,9 @@
 body {
     margin: 0;
+    background-color: #F9FBFC;
 }
 #header {
     padding: 25px 20px 0;
-    background-color: #F9FBFC;
 }
 #header::after {
     content: "";
