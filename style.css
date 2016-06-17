@@ -26,7 +26,6 @@ body {
     padding-top: 78px;
 }
 
-
 /* Decoration */
 
 #login {
@@ -45,6 +44,8 @@ body {
 }
 .border {
     border: solid #DCE3E6 1px;
+    text-align: center;
+    background-color: #FFFFFF;
 }
 
 #hero {
@@ -66,12 +67,17 @@ h1 {
     color: #474A4D;
 }
 p {
-    margin-top: 22px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #81888B;
-    margin-bottom: 43px;
 }
+
+.first {
+    margin-bottom: 43px;
+    margin-top: 22px;
+
+}
+
 #signup {
     border-radius: 3px;
     padding: 23px 33px;
@@ -82,4 +88,78 @@ p {
     text-decoration: none;
     background-color: #37D97A;
     color: white;
+}
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 40px;
+    color: #2f3233;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+.left-column {
+    float: left;
+}
+.photo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+.text {
+    display: block;
+    color: #81888B;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+.interview {
+    height: 100px;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.comments {
+    text-align: center;
+    padding-bottom: 10px;
+    width: 1020px;
+    min-height: 270px;
+    display: inline-block;
+}
+.comments::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    line-height: 40px;
+    color: #2f3233;
+}
+.place {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: 40px;
+    color: #2f3233;
+}
+.right-column {
+    float: right;
 }
