@@ -4,6 +4,7 @@
 
 body {
     background-color: #F9FBFC;
+    text-align: center;
 }
 #header {
     padding: 25px 20px 0;
@@ -44,12 +45,10 @@ body {
 }
 .border {
     border: solid #DCE3E6 1px;
-    text-align: center;
     background-color: #FFFFFF;
 }
 
 #hero {
-    text-align: center;
     background-image: url(https://minutemailer.com/assets/css/gfx/channels.png);
     background-repeat: no-repeat;
     background-size: 870px 259px;
@@ -99,6 +98,9 @@ h2 {
     line-height: 40px;
     color: #2f3233;
     margin-top: 60px;
+    margin-bottom:  10px;
+}
+.border>h2{
     margin-bottom: 45px;
 }
 .left-column {
@@ -129,7 +131,6 @@ h2 {
     margin-bottom: 40px;
 }
 .comments {
-    text-align: center;
     padding-bottom: 10px;
     width: 1020px;
     min-height: 270px;
@@ -162,4 +163,7 @@ h2 {
 }
 .right-column {
     float: right;
+}
+ .big {
+    margin-top: 50px;
 }
