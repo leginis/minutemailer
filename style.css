@@ -165,5 +165,6 @@ h2 {
     float: right;
 }
  .big {
-    margin-top: 50px;
+     margin-top: 50px;
+     margin-bottom: -3px;
 }
