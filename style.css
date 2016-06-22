@@ -6,24 +6,46 @@ body {
     background-color: #F9FBFC;
     text-align: center;
 }
+
+.attention {
+    background-color: #f63232;
+    color: #eee;
+    padding: 10px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    text-align: center;
+}
+
+.attention a {
+    color: white;
+}
+
 #header {
     padding: 25px 20px 0;
 }
+
 #header::after {
     content: "";
     display: table;
     clear: both;
 }
-#logo {
+
+.logo {
     float: left;
     width: 180px;
     height: 27px;
 }
+
 #login {
     float: right;
 }
+
 #hero {
-    height:550px;
+    height: 550px;
     padding-top: 78px;
 }
 
@@ -33,19 +55,22 @@ body {
     text-decoration: none;
     color: #333;
     padding: 8px 10px;
-    font-family:"Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 12px;
-    border:solid #666 1px;
+    border: solid #666 1px;
     border-radius: 7%;
 }
-#logo {
+
+.logo {
     background-image: url(https://minutemailer.com/assets/svg/minutemailer-logo.svg);
     background-repeat: no-repeat;
     background-position-y: 2px;
 }
+
 .border {
     border: solid #DCE3E6 1px;
     background-color: #FFFFFF;
+    padding-left: 30px;
 
 }
 
@@ -66,6 +91,7 @@ h1 {
     line-height: 40px;
     color: #474A4D;
 }
+
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -74,14 +100,14 @@ p {
 }
 
 .first {
-    margin-bottom: 43px;
+    margin-bottom: 23px;
     margin-top: 22px;
 
 }
 
-#signup {
+.signup {
     border-radius: 3px;
-    padding: 23px 33px;
+    padding: 23px 0;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -89,7 +115,11 @@ p {
     text-decoration: none;
     background-color: #37D97A;
     color: white;
+    display: block;
+    width: 196px;
+    margin: 0 auto;
 }
+
 h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 36px;
@@ -102,12 +132,15 @@ h2 {
     margin-top: 60px;
     margin-bottom: 10px;
 }
-.big_break{
+
+.big-break {
     margin-bottom: 45px;
 }
+
 .left-column {
     float: left;
 }
+
 .photo {
     width: 65px;
     height: 65px;
@@ -115,8 +148,8 @@ h2 {
     float: left;
     margin-right: 20px;
     margin-bottom: 35px;
-    margin-left: 35px;
 }
+
 .text {
     display: block;
     color: #81888B;
@@ -124,25 +157,32 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
+    margin-right: 35px;
+    width: 451px;
 
 }
+
 .interview {
     height: 100px;
     width: 50%;
     text-align: left;
     margin-bottom: 40px;
+    font-size: 0;
 }
+
 .comments {
     padding-bottom: 10px;
     width: 1020px;
     min-height: 270px;
     display: inline-block;
 }
+
 .comments::after {
     content: "";
     display: table;
     clear: both;
 }
+
 .name {
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
@@ -153,6 +193,7 @@ h2 {
     line-height: 40px;
     color: #2f3233;
 }
+
 .place {
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
@@ -163,23 +204,26 @@ h2 {
     line-height: 40px;
     color: #2f3233;
 }
+
 .right-column {
     float: right;
 }
+
 .big {
     margin-top: 50px;
     margin-bottom: -3px;
 }
-.reasons{
+
+.reasons {
     display: block;
-    font-size: 0px;
-    margin:0 auto;
+    font-size: 0;
     width: 1020px;
     height: 180px;
     padding-left: 10px;
-    margin-bottom: 70px;
+    margin: 0 auto 50px;
 }
-.reasons>li {
+
+.reasons > li {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -197,22 +241,26 @@ h2 {
     background-repeat: no-repeat;
     background-size: 14px 11px;
     padding-left: 30px;
-    margin-left: 0px;
+    margin-left: 0;
     box-sizing: border-box;
 }
-.border_reasons {
-    margin-top: 75px;
+
+.border-reasons {
+    margin-top: 45px;
     min-height: 100px;
 }
+
 #footer {
     margin: 0 auto;
     padding: 30px 0;
     width: 1030px;
 }
-ul.columns>li>a {
+
+ul.columns > li > a {
     color: #2f3233;
     text-decoration: none;
 }
+
 .columns {
     list-style: none;
     font-family: "Open Sans", sans-serif;
@@ -222,24 +270,37 @@ ul.columns>li>a {
     text-align: left;
     padding: 0;
 }
+
 .strong {
-    color: #646666;
+    color: #2f3233;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
-.columns>li {
+
+.columns > li {
     margin: 10px 0;
 }
-.footer_main {
+
+.footer-main {
     display: inline-block;
     vertical-align: top;
     width: 22%;
     font-size: 0;
 }
+
 .copyright {
     text-align: left;
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
-    width: 200px;
-    margin-top: 50px;
+    width: 210px;
+    margin-top: 55px;
+}
+
+.foot-logo {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
 }
